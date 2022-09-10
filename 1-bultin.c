@@ -7,9 +7,9 @@
  */
 void cd_b(char *line)
 {
-       	int index;
+	int index;
 	int token_count;
-       	char **param_array;
+	char **param_array;
 	const char *delim = "\n\t ";
 
 	token_count = 0;
@@ -38,7 +38,7 @@ void env_b(__attribute__((unused))char *line)
 {
 	int i;
 	int j;
-	
+
 	for (i = 0; environ[i] != NULL; i++)
 	{
 		for (j = 0; environ[i][j] != '\0'; j++)

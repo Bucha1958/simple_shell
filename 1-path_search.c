@@ -10,10 +10,11 @@
 char *path_finder(char *command)
 {
 	char *str = "PATH";
-       	char *constructed;
+	char *constructed;
 	char **path_tokens;
 	int index;
 	char *directory;
+
 	index = find_path(str);
 	path_tokens = tokenize_path(index, str);
 	if (path_tokens == NULL)
@@ -57,9 +58,7 @@ int find_path(char *str)
 				break;
 		}
 		if (j == len && environ[i][j] == '=')
-			
 			return (i);
-		}
 	return (-1);
 }
 

@@ -19,8 +19,8 @@
  */
 typedef struct builtin_d
 {
-       	char *built;
-       	void (*f)(char *);
+	char *built;
+	void (*f)(char *);
 } builtin_t;
 extern char **environ;
 char **token_interface(char *, const char *, int);
