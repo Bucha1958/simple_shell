@@ -1,5 +1,4 @@
 #include "shell.h"
-
 /**
  * cd_b - Changes the current working directory to the parameter passed to cd.
  * if no parameter is passed it will change directory to HOME.
