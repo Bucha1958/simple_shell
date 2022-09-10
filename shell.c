@@ -19,7 +19,7 @@ int main(int argc __attribute__((unused)), char *argv[])
 		command_counter++;
 		line = NULL;
 		size = 0;
-		parse_line(line, size, command_counter, av);
+		parse_line(line, size, command_counter, argv);
 	} while (1);
 	return (0);
 }
