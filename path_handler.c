@@ -6,7 +6,7 @@
  */
 char *path_search(char *cmd)
 {
-	char *path = NULL, *token = NULL, ch = '/';	
+	char *path = NULL, *token = NULL, ch = '/';
 	char *dirs[1024];
 	int i;
 	char *cwd = getcwd(NULL, 0);
